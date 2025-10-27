@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/001_create_users.sql
+      relativeToChangelogFile: false
+  - include:
+      file: classpath:db/changelog/002_create_chat_message.sql
+      relativeToChangelogFile: false
